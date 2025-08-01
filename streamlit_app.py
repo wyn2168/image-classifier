@@ -65,7 +65,7 @@ st.markdown("""
 
 # Configuration - CHANGE THIS TO YOUR LOCAL MACHINE'S IP
 # Find your IP with: ipconfig (Windows) or ifconfig (Mac/Linux)
-API_BASE_URL = os.getenv("API_BASE_URL", "http://10.10.0.240:8000")
+API_BASE_URL = os.getenv("API_BASE_URL", " https://7df135f5df69.ngrok-free.app")
 
 # For development, you can also use ngrok to expose your local server
 # Download ngrok from https://ngrok.com/ and run: ngrok http 8000
